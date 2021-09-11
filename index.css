@@ -1,16 +1,3 @@
-.container {
-  display: flex;
-}
-
-.exampleone {
-  flex-grow: 1;
-  height: 100px;
-}
-
-.exampleone + .exampleone {
-  margin-left: 2%;
-}
-
 .exampleone {
   background-color: teal;
   color: white;
