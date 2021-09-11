@@ -1,5 +1,25 @@
 section {
   display: flex;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 580px;
+}
 
+section {
+  width: 32%;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+}
+
+/* Re-order items into rows */
+section:nth-child(3n+1) { order: 1; }
+section:nth-child(3n+2) { order: 2; }
+section:nth-child(3n)   { order: 3; }
+
+/* Force new columns */
+.container::before,
+.container::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
 }
