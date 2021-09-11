@@ -2,11 +2,26 @@
   display: flex;
 }
 
-.item {
+.exampleone {
   flex-grow: 1;
   height: 100px;
 }
 
-.item + .item {
+.exampleone + .exampleone {
   margin-left: 2%;
+}
+
+.exampleone {
+  background-color: teal;
+  color: white;
+}
+
+.exampletwo {
+  background-color: rgb(153,102,153);
+  color: rgb(255,255,204);
+}
+
+.examplethree {
+  background-color: #777799;
+  color: #FFFFFF;
 }
