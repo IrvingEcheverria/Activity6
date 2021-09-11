@@ -11,9 +11,11 @@ section {
 }
 
 /* Re-order items into rows */
-section:nth-child(3n+1) { order: 1; }
-section:nth-child(3n+2) { order: 2; }
-section:nth-child(3n)   { order: 3; }
+section:nth-child(5n+1) { order: 1; }
+section:nth-child(5n+2) { order: 2; }
+section:nth-child(5n+3)   { order: 3; }
+section:nth-child(5n+4)   { order: 4; }
+section:nth-child(5n)   { order: 5; }
 
 /* Force new columns */
 .container::before,
