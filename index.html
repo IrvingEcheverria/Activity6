@@ -24,8 +24,8 @@
   
     .item {
       width: 70px;
-      padding: 30px;
-      /* margin: 10px; */
+      /* padding: 30px; */
+      margin: 10px;
       background-color: darkgrey;
       text-align: center;
       font-size: 30px;
@@ -33,9 +33,10 @@
     }
     
     .item-1 {
+      width: 200px;
       /* font-size: 70px; */
       order: 1;
-      flex-grow. 1;
+      /* flex-grow. 1; */
     }
     
     
@@ -55,10 +56,13 @@
     
     
     .item-5 {
-      /* font-size: 70px; */
+      width: 200px;
       order: -1;
       /* align-self: stretch; */
-      flex-grow: 1;
+      /* flex-grow: 1; */
+      /* flex-shrink: 5; */
+      /* flex-basis: 100px; */
+      flex: 0 1 auto;
     }
   
   </style>
